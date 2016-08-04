@@ -1,0 +1,73 @@
+*{ outline:1px solid rgba(255,0,0,0.5);}
+
+.btn{
+	width: 150px;
+    height: 50px;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.olis{
+	color: green;
+	font-size: 40px;
+}
+.titulo{
+
+	text-align: center;
+}
+.yo{
+	width: 180px;
+	border-radius: 25px;
+}
+.presen{
+	font-size: 20px;
+	color: black;
+
+}
+#sobremi{
+	font-size: 20px;
+	background-color: blue;
+}
+#proyectos{
+
+	font-size: 20px;
+	background-color:  #FF337D;
+}
+.misproyect{
+	list-style: none;
+
+}
+
+#conocimientos{
+
+	font-size: 20px;
+	background-color:  green;
+	
+
+}
+.habilidades{
+	list-style: none;
+}
+#contacto{
+
+	font-size: 20px;
+	background-color:  #FF5733;
+
+}
+.contact{
+	margin-left: 200px;
+	list-style: none;
+}
+.primero{
+	width: 300px;
+	height: 270px;
+
+}
+.segundo{
+	width: 100px;
+}
+.tercero{
+	width: 200px;
+	height: 170px;
+}
