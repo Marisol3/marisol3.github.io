@@ -1,20 +1,71 @@
 *{ outline:1px solid rgba(255,0,0,0.5);}
 
+.home{
+	background-color: #84B4B4;
+}
+.portada{
+	background-image: url("img/arcoiris.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}	
+.medio{
+	font-family: 'Marcellus SC', serif;
+	position: relative;
+	top: 50px;
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	height: 500px;
+}
+.sub{
+	position: relative;
+	top: -150px;
+	bottom: 1000px;
+	text-align: center;
+	font-size: 50px;
+	color: black;
+	height: 50px;
+	font-family: 'Luckiest Guy', cursive;
+
+}
 .btn{
-	width: 150px;
+	width: 170px;
     height: 50px;
     position: relative;
-    margin-left: 10px;
-    margin-bottom: 30px;
-    font-size: 20px;
+    margin: 50px 20px;
+    font-size: 18px;
+    background-color:  #97C8D1;
+    font-family: 'Luckiest Guy', cursive;
 }
-.olis{
-	color: green;
-	font-size: 40px;
+.btn:first-child {
+	margin-left: 45px;#696969;
+
 }
 .titulo{
+	color: 	#D57B59;
+	margin: 0px;
+	border-right-style: double;
+	border-right-width: 10px;
+	font-size: 50px;
+	font-family: 'Ruluko', sans-serif;
+}
+.diferente{
+	color: 	white;
+	margin: 0px;
+	border-right-style: double;
+	border-right-width: 10px;
+	font-size: 70px;
+	font-family: 'Ruluko', sans-serif;
 
-	text-align: center;
+}
+.line{
+	margin: 0px;
+	padding: 0px;
+
+}
+.hobbies{
+	margin-left: 30px;
 }
 .yo{
 	width: 180px;
@@ -22,41 +73,67 @@
 }
 .presen{
 	font-size: 20px;
-	color: black;
-
+	color: #D57B59;
 }
+.blanco{
+	color: white;
+}
+
 #sobremi{
 	font-size: 20px;
-	background-color: blue;
+	background-color: #D8D3C0;
+	padding: 35px 0px;
 }
-#proyectos{
-
+#proyectos{ 
 	font-size: 20px;
-	background-color:  #FF337D;
+	background-color: #D57B59;
+	padding: 35px 30px;
+
 }
 .misproyect{
 	list-style: none;
+	padding-top: 30px;
 
+}
+.work{
+	text-align: center;
+	margin-top: 15px;
+
+}
+
+
+.work:hover
+{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
 }
 
 #conocimientos{
 
 	font-size: 20px;
-	background-color:  green;
+	background-color: #D8D3C0;
+	padding: 30px 40px;
 	
 
 }
 .habilidades{
 	list-style: none;
 }
+.hb{
+	text-align: center;
+
+}
 #contacto{
 
 	font-size: 20px;
-	background-color:  #FF5733;
+	background-color: 	#3D3D3D;
+	
 
 }
 .contact{
-	margin-left: 200px;
+	margin: 30px 0px;
+	
 	list-style: none;
 }
 .primero{
@@ -65,9 +142,48 @@
 
 }
 .segundo{
-	width: 100px;
+	width: 130px;
+	height: 150px;
+	margin-top: 15px;
+}
+.segundo:hover
+{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+}
+.mujer{
+	width: 250px;
+	margin: 30px 0px;
+	text-align: center;
+
 }
 .tercero{
-	width: 200px;
-	height: 170px;
+	width: 120px;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 18px;
+}
+
+.tercero:hover
+{
+	background: #84B4B4;
+}
+.borde{
+	height: 210px;
+	width: 190px;
+	background-color: #D57B59;
+	border:1px solid #D57B59; 
+	border-radius: 50%;
+	display: inline-block;
+	margin-left:40px; 
+	margin-right: 0px;
+}
+.social{
+	color: white;
+	text-align: center;
+	width: 150px;
+	font-size: 15px;
+	margin-top: 50px;
+
 }
