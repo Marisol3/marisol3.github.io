@@ -25,20 +25,28 @@
         <div class="row home">
             <div class="container">
                 <div class="col-md-12 menu">
-                    <button type="button" a href="index.html"   class="btn"><a href="#Home"> HOME</a></button>
-                    <button type="button" class="btn"><a href="#sobremi"> SOBRE MI</a></button>
-                    <button type="button" class="btn"><a href="#proyectos">PROYECTOS</a></button>
-                    <button type="button" class="btn"><a href="#conocimientos"> CONOCIMIENTOS</a></button>
-                    <button type="button"  class="btn"><a href="#contacto">CONTACTO </a></button>
+                    <ul class="topnav" id="myTopnav">
+                        <li class="btn"><a href="#Home"> HOME</a></li>
+                        <li class="btn"><a href="#smi"> SOBRE MI</a></li>
+                        <li class="btn"><a href="#prueba">PROYECTOS</a></li>
+                        <li class="btn"><a href="#conoci"> CONOCIMIENTOS</a></li>
+                        <li class="btn"><a href="#contacto">CONTACTO </a></li>
+                        <li class="icon">
+                            <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                            
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="row portada">
+        <div class="row portada"><p id="Home"></p>
             <div class="container">
-                <div class="medio">Hola mi nombre es Marisol Oviedo Cjula</div>
-                <div class="sub">Bienvenido a mi página web</div>
+
+                <div class="medio">Hola mi nombre es Marisol Oviedo Cjula <span id="smi"></span></div>
+                <div class="sub">Bienvenido  a mi página web.</div>
             </div>
         </div>
+
         <div class="row" id="sobremi">
             <div class="container">
                 <div class="col-md-4 titulo">Mas sobre mí 
@@ -46,13 +54,18 @@
                 <div class="col-md-3">
                     <img class="yo" src="img/yo.PNG">
                 </div>
+
+
                 <div class="col-md-4">
                     <h1 class="presen">Hola soy una coder</h1>
-                    <p class="presen">Me llamo Marisol soy estudiante de laboratoria , soy una persona soñadora y positiva , me gusta ayudar y ser colaboradora entre mis compañeras , me gusta los animales .
-                    Soy curiosa, apasionada con la capacidad de aprender cosas nuevas y trabajar en equipo .</p>
-                </div> 
+                    <p class="presen">Me llamo Marisol soy estudiante de laboratoria , soy una persona soñadora y positiva , me gusta ayudar y ser colaboradora entre mis compañeras eso es lo que aprendi a trabajar en equipo, me gusta los animales además de leer y admirar la naturaleza.</p><p id="prueba"></p>
+                    <p class="presen">Soy curiosa, apasionada con la capacidad de aprender cosas nuevas y trabajar en equipo .</p>
+                   
+                </div>
             </div>
-        </div>
+
+        </div> 
+
         <div class="row" id="proyectos">
             <div class="container">
                 <div class="col-md-6 diferente">Mis Proyectos </div>
@@ -62,11 +75,13 @@
                 <div class="col-md-12">
 
                 <ul class="misproyect">
-                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Prettyfy-master/perfil.html"><img class="primero" src="img/perfil.PNG"><p>Prettyfy</p></a></li>
-                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Mi-examen-master/index.html"><img class="primero" src="img/TheGentleman.PNG"><p>The Gentleman</p></a></li>
-                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Lab-E-comunidad-master/index.html"><img class="primero" src="img/Captura.PNG"><p>Ecomunidad</p></a></li>
-                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Lab-Escueladanza-master/blog.html"><img class="primero" src="img/danza.PNG"><p>Academia de Baile</p></a></li>
+                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Prettyfy-master/perfil.html"><img class="primero" src="img/perfil.PNG"><p class="trabajos">Prettyfy</p></a></li>
 
+                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Mi-examen-master/index.html"><img class="primero" src="img/TheGentleman.PNG"><p class="trabajos">The Gentleman</p></a></li>
+                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Lab-E-comunidad-master/index.html"><img class="primero" src="img/Captura.PNG"><p class="trabajos">Ecomunidad</p></a></li>
+
+                    <li class="col-md-6 work"><a href="file:///C:/Users/Juana%20Quispe/Documents/Lab-Escueladanza-master/blog.html"><img class="primero" src="img/danza.PNG"><p id="conoci"></p><p class="trabajos">
+                    Academia de Baile</p></a></li>
                 </ul>
                 </div>
             </div>
@@ -74,19 +89,19 @@
         <div class="row" id="conocimientos">
             <div class="container">
                 <div class="col-md-6 titulo"><strong>Mis Conocimientos</strong></div>
-                <div class="col-md-6 presen">
+                <div class="col-md-6 rosa">
                 Estos son mis conocimientos que yo adquiri durante las clases que recibí.
                 </div>
                 <div class="col-md-12">
                     <ul class="habilidades">
-                        <li class="col-md-3 hb"><img class="segundo" src="img/html.png"><div class="presen"> HTML5</div><div class="progress">
+                        <li class="col-md-3 hb"><img class="segundo" src="img/html.png"><div class="learn"> HTML5</div><div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> <span class="sr-only">60% Complete (danger)</span></div></div></li>
-                        <li class="col-md-3 hb"><img class="segundo" src="img/descarga.jpg"><div class="presen"> CSS</div><div class="progress">
+                        <li class="col-md-3 hb"><img class="segundo" src="img/descarga.jpg"><div class="learn"> CSS</div><div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (danger)</span></div></div>
                         </li>
-                        <li class="col-md-3 hb"><img class="segundo" src="img/jade.jpg"><div class="presen"> JADE</div><div class="progress">
+                        <li class="col-md-3 hb"><img class="segundo" src="img/jade.jpg"><div class="learn"> JADE</div><div class="progress">
                         <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (danger)</span></div></div></li>
-                        <li class="col-md-3 hb"><img class="segundo" src="img/sass.png"><div class="presen"> SASS</div><div class="progress"><div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (danger)</span></div></div>
+                        <li class="col-md-3 hb"><img class="segundo" src="img/sass.png"><div class="learn"> SASS</div><div class="progress"><div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (danger)</span></div></div>
                         </li>
                     </ul>
                 </div>
@@ -108,6 +123,19 @@
             </div>
         </div>
     </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+
+</script>
+
 
 </body>
 
