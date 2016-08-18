@@ -50,7 +50,8 @@
     font-family: 'Luckiest Guy', cursive;
 }
 .btn:first-child {
-	margin-left: 45px;#696969;
+	margin-left: 15px;
+
 
 }
 .titulo{
@@ -187,7 +188,7 @@ transform: scale(0.8);
 transform: scale(1.3);
 }
 .mujer{
-	width: 250px;
+	width: 200px;
 	margin: 30px 0px;
 	text-align: center;
 
@@ -229,68 +230,6 @@ ul.topnav {
     background-color: ##84B4B4;
 }
 
-/* Float the list items side by side */
-ul.topnav li {float: left;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 0px 0px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
-@media screen and (max-width:750px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:750px) {
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-...............
-
 
 @media(max-width: 750px){
 	header{height: 100vh;} 
@@ -300,4 +239,9 @@ margin-left: -50px;
 
 
 
+.navbar-default .navbar-nav > li > a {
+  color: #84B4B4; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: black; }
 
