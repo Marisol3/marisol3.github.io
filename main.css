@@ -1,4 +1,4 @@
-*{ outline:1px solid rgba(255,0,0,0.5);}
+
 .menu{
 	background: #84B4B4 ;
 	color: white;
@@ -18,7 +18,6 @@
 	background-image: url("img/arcoiris.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }	
 .medio{
 	font-family: 'Marcellus SC', serif;
@@ -26,7 +25,7 @@
 	top: 100px;
 	text-align: center;
 	font-size: 50px;
-	color: black;
+	color: 	#3D3D3D;
 	height: 500px;
 }
 .sub{
@@ -35,10 +34,9 @@
 	bottom: 1000px;
 	text-align: center;
 	font-size: 50px;
-	color: black;
+	color: #D57B59;
 	height: 50px;
 	font-family: 'Luckiest Guy', cursive;
-
 }
 .btn{
 	width: 170px;
@@ -51,8 +49,6 @@
 }
 .btn:first-child {
 	margin-left: 15px;
-
-
 }
 .titulo{
 	color: 	#D57B59;
@@ -69,18 +65,16 @@
 	border-right-width: 10px;
 	font-size: 70px;
 	font-family: 'Ruluko', sans-serif;
-
 }
 .line{
 	margin: 0px;
 	padding: 0px;
-
 }
 .hobbies{
 	margin-left: 30px;
 }
 .yo{
-	width: 180px;
+	width: 250px;
 	border-radius: 25px;
 }
 .presen{
@@ -91,19 +85,16 @@
 }
 .rosa{
 	color: #D57B59;
-
 }
 .trabajos{
 	font-size: 20px;
 	color: black;
 	margin-top: 20px;
 	margin-bottom: 30px;
-
 }
 .blanco{
 	color: white;
 }
-
 #sobremi{
 	font-size: 20px;
 	background-color: #D8D3C0;
@@ -113,20 +104,15 @@
 	font-size: 20px;
 	background-color: #D57B59;
 	padding: 35px 30px;
-
 }
 .misproyect{
 	list-style: none;
 	padding-top: 30px;
-
 }
 .work{
 	text-align: center;
 	margin-top: 15px;
-
 }
-
-
 .work:hover
 {
 -webkit-transform: scale(0.8);
@@ -142,9 +128,6 @@ transform: scale(0.8);
 	font-size: 20px;
 	background-color: #D8D3C0;
 	padding: 80px 40px;
-
-	
-
 }
 .learn{
 	font-size: 20px;
@@ -157,25 +140,20 @@ transform: scale(0.8);
 }
 .hb{
 	text-align: center;
-
 }
 #contacto{
 
 	font-size: 20px;
 	background-color: 	#3D3D3D;
-	
-
+	padding: 40px 40px;
 }
 .contact{
-	margin: 30px 0px;
-	
+	margin: 30px 0px;	
 	list-style: none;
 }
-
 .primero{
 	width: 300px;
 	height: 270px;
-
 }
 .segundo{
 	width: 170px;
@@ -192,22 +170,19 @@ transform: scale(1.3);
 	width: 300px;
 	margin: 30px 0px;
 	text-align: center;
-
 }
 .tercero{
-	width: 120px;
-	height: 150px;
-	margin-top: 30px;
-	margin-left: 18px;
+	width: 90px;
+	margin-top: 40px;
+	margin-left: 15px;
 }
-
 .tercero:hover
 {
 	background: #84B4B4;
 }
 .borde{
-	height: 210px;
-	width: 190px;
+	height: 150px;
+	width: 150px;
 	background-color: #D57B59;
 	border:1px solid #D57B59; 
 	border-radius: 50%;
@@ -228,18 +203,17 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: ##84B4B4;
+    background-color: ###84B4B4;
 }
-
-
+.center{
+	text-align: center;
+	color: white;
+}
 @media(max-width: 750px){
 	header{height: 100vh;} 
 .work{
 margin-left: -50px;
 }
-
-
-
 .navbar-default .navbar-nav > li > a {
   color: #84B4B4; }
 
